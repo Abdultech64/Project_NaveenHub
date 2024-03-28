@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  box-shadow: 1px 1px 3px 3px rgba(25, 117, 142, 0.4);
+  background-color: #c4d50b;
+}
+.logo{
+  display: inline;
+  color: #777;
+  font-size: 30px;
+}
+
+header .logo a{
+  font-size: 30px;
+  color: #777;
+  text-decoration: none;
+
+}
+h3 {
+  align-items: center;
+  text-align: center;
+}
+.form{
+  text-align: center;
+  align-items: center;
+ 
+
+}
+ .display-menu h1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.display-menu{
+padding:10px;
+
+text-decoration: none;
+background-color: rgb(24, 228, 228);
+border-radius: 5px;
+
+
+}
+.menu1 {
+text-decoration: none;
+padding: 5px;
+font-size: 15px;
+}
+.menu3 {
+text-decoration: none;
+padding: 5px;
+font-size: 15px;
+
+
+}
+ .menu1:hover{
+  background-color: rgb(197, 197, 225);
+  border-radius: 5px;
+
+ 
+}
+ .menu3:hover{
+  background-color: rgb(197, 197, 225);
+  border-radius: 5px;
+
+ 
+}
+ .menu2:hover{
+  background-color: rgb(197, 197, 225);
+  border-radius: 5px;
+
+ 
+}
+.menu2 {
+text-decoration: none;
+padding: 5px;
+font-size: 15px;
+}
+
+h1{
+  text-align: center;
+}
+.table{
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+.form{
+  text-align: left;
+  width: 40%;
+  margin:40px  auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px 50px;
+
+}
+.form-control{
+  display: flex;
+  flex-direction: column;
+}
+.heading{
+  text-align: center;
+}
+button{
+  text-align: center;
+  padding: 10px 0px;
+ width: 100%
+  
+}
+.form-control>input{
+  padding: 5px 0px;
+  
+  margin:10px 0px
+}
+
+@media  screen and (max-width: 800px) {
+  .form{
+    width: 80%;
+  }
+}
